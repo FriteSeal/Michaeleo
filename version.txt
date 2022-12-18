@@ -1,4 +1,0 @@
-This version of Michaeleo is called "Bondi", named after the Australian Bondi Beach.
-
-1.17 Stable Changelog
-- added typewriter effect to Michaeleo text

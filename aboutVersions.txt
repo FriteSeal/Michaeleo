@@ -1,0 +1,8 @@
+Below is how the new version labelling system works as of 1.18.1. Heads up, it isn't in what would probably be considered fancy programmer lingo, rather the language of "me describing things".
+
+Sub Version		X		This will +1 every minor update
+Bug Version		Y		This will +1 for every bug fix to the Sub Version
+Nickname		Z		Changes every re-design. Always named after an Australian beach!
+
+For changelogs just look at the repo or something. /e shrug
+I usually don't put good changelogs in since I just don't like writing them, just a summary of stuff
