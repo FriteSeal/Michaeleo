@@ -6,6 +6,13 @@ body{
 	background-color: #111418;
 }
 
+p{
+	font-size: 30px;
+	color: #dcdddd;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
 h1{
 	font-size: 30px;
 	color: #dcdddd;
@@ -28,10 +35,38 @@ h3{
 	font-size: 12px;
 }
 
+/* fade in text */
 .fade-in-text {
-  font-family: Arial;
-  font-size: 40px;
   animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .typewriter h1 {
@@ -83,10 +118,6 @@ footer {
 
 .smallh1{
 	font-size: 25px;
-}
-
-.big.uppercase{
-	color: navy;
 }
 
 .darkerh2{
@@ -175,7 +206,9 @@ h1 span{
   		<h1 class="big">         Contact</h1>
 	</div>
 
-	<h1><br>You're contacting me because...</h1>
+	<div class="fade-in-text">
+  		<p>You're contacting me because...</p>
+	</div>
 
 	<h2 class="primaryHyperlinkStyle"><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNstzHbLcSmhbSMQdwwxJxJfTGhcQwxbnHqhFCjpxLjBbwfzcRSpNgMRQQzSWDPMBxZHxB" target="_blank" rel="noopener noreferrer"><br>You want to employ me (in real life)</a></h2>
 
