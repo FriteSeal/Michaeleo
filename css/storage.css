@@ -2,6 +2,13 @@ body{
 	background-color: #111418;
 }
 
+p{
+	font-size: 20px;
+	color: #dcdddd;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
 h1{
 	font-size: 30px;
 	color: #dcdddd;
@@ -24,6 +31,41 @@ h3{
 	font-size: 12px;
 }
 
+/* fade in text */
+.fade-in-text {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* typewriter stuff */
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid #dcdddd; /* The typwriter cursor */
