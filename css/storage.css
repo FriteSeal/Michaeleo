@@ -34,6 +34,12 @@ footer {
 
 }
 
+.altStyle{
+	color : #8B9093;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
 .big{
 	font-size:75px;
 }
