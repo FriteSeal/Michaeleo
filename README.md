@@ -1,4 +1,2 @@
-# Michaeleo
-michaeleo website
-
-Hi. This is the repo for a project website of mine, mostly for personal branding.
+# NO LONGER IN USE! 🚨
+I no longer maintain this website, it was only a hobby. Sorry to all the "active" users.
